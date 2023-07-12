@@ -8,13 +8,13 @@ The road signs dataset used for this project contains images of various road sig
 
 ## Approach
   ### Training: 
-    - To train the YOLOv5 model on the road signs dataset, run the following command:
+  - To train the YOLOv5 model on the road signs dataset, run the following command:
       python train.py --data data.yaml --cfg yolov5s.yaml --weights '' --batch-size 16
   ### Evaluation: 
-    - To evaluate the YOLOv5 model on the road signs dataset, run the following command:
+  - To evaluate the YOLOv5 model on the road signs dataset, run the following command:
       python test.py --data data.yaml --weights runs/train/exp/weights/best.pt --batch-size 16
   ### Inference: 
-    - To perform object detection on an image using the trained YOLOv5 model, run the following command:
+  - To perform object detection on an image using the trained YOLOv5 model, run the following command:
       python detect.py --source path/to/image.jpg --weights runs/train/exp/weights/best.pt
 
 ## Requirements
