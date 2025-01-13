@@ -1,7 +1,7 @@
-# Object Detection with YOLOv5
+# Object Detection with YOLOv5 & DETR
 
 ## About The Project
-This repository contains code for training and evaluating an object detection model using YOLOv5 on the road signs dataset.
+This repository contains code for training and evaluating an object detection model using YOLOv5 and DETR algorithms.
   
 ## Dataset
 The road signs dataset used for this project contains images of various road signs belonging to the following 4 classes: traffic lights, stop signs, speed limit signs, and crosswalks. The dataset is small and contains only 877 images in total.
